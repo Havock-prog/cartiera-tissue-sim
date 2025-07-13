@@ -70,7 +70,7 @@ def main():
     print("\n\nGENERAZIONE ORDINI CASUALI:")
     lista_ordini = genera_ordini_randomici()
     for idx, ordine in enumerate(lista_ordini, 1):
-        print(f" Ordine {idx}: {ordine.prodotto} | Grammatura target: {ordine.grammatura_target} g/m2 | Peso target: {ordine.peso_target/1000:.1f} t")
+        print(f" Ordine {idx+1}: {ordine.prodotto} | Grammatura target: {ordine.grammatura_target} g/m2 | Peso target: {ordine.peso_target/1000:.1f} t")
     print("\n--- Simulazione in corso ---\n")
     print(
     "NOTA: Questa simulazione adotta una logica di tempo accelerato per consentire l’analisi rapida della produzione cartaria.\n"

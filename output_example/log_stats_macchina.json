@@ -1,0 +1,94 @@
+[
+  {
+    "velocita tela": {
+      "valore": 30.1,
+      "efficienza": 0.9591323203683109
+    },
+    "concentrazione impasto %": {
+      "valore": 0.002,
+      "efficienza": 0.9425740723210363
+    },
+    "grado raffinazione": {
+      "valore": 30,
+      "efficienza": 0.9121494239391751
+    },
+    "temperatura cappa": {
+      "valore": 400,
+      "efficienza": 0.8723414896778872
+    },
+    "additivi_chimici": [
+      {
+        "tipologia": "sbiancante",
+        "efficienza": 0.9692607258033186
+      },
+      {
+        "tipologia": "resistenza ad umido (KIMENE)",
+        "efficienza": 0.9884515198151025
+      }
+    ],
+    "feltro": {
+      "usura": 0.3098880264420619,
+      "efficienza": 1
+    }
+  },
+  {
+    "velocita tela": {
+      "valore": 27.02,
+      "efficienza": 0.881743658681697
+    },
+    "concentrazione impasto %": {
+      "valore": 0.002,
+      "efficienza": 0.9773315640170059
+    },
+    "grado raffinazione": {
+      "valore": 20,
+      "efficienza": 0.9121046692318865
+    },
+    "temperatura cappa": {
+      "valore": 410,
+      "efficienza": 0.9510793500968477
+    },
+    "additivi_chimici": [
+      {
+        "tipologia": "sbiancante",
+        "efficienza": 0.9875308050997734
+      }
+    ],
+    "feltro": {
+      "usura": 0.3288164251208919,
+      "efficienza": 1
+    }
+  },
+  {
+    "velocita tela": {
+      "valore": 25.2,
+      "efficienza": 0.8389667362796192
+    },
+    "concentrazione impasto %": {
+      "valore": 0.003,
+      "efficienza": 0.9687831828446891
+    },
+    "grado raffinazione": {
+      "valore": 60,
+      "efficienza": 0.6341495249424874
+    },
+    "temperatura cappa": {
+      "valore": 450,
+      "efficienza": 0.9999275483178932
+    },
+    "additivi_chimici": [
+      {
+        "tipologia": "sbiancante",
+        "efficienza": 0.95473107282026
+      },
+      {
+        "tipologia": "resistenza ad umido (KIMENE)",
+        "efficienza": 0.9794313966636118
+      }
+    ],
+    "feltro": {
+      "usura": 0.3459692028987711,
+      "efficienza": 1
+    }
+  }
+]

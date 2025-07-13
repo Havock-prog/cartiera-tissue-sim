@@ -1,0 +1,4892 @@
+[
+  {
+    "bobina": {
+      "grammatura ottenuta": 14.9,
+      "grammatura target": 14.9,
+      "lunghezza": 2558.5,
+      "peso_bobina": 104.82,
+      "completata": false,
+      "indice_qualita": 0.949
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 30.1,
+        "efficienza": 0.9591323203683109
+      },
+      "concentrazione impasto %": {
+        "valore": 0.002,
+        "efficienza": 0.9425740723210363
+      },
+      "grado raffinazione": {
+        "valore": 30,
+        "efficienza": 0.9121494239391751
+      },
+      "temperatura cappa": {
+        "valore": 400,
+        "efficienza": 0.8723414896778872
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.9692607258033186
+        },
+        {
+          "tipologia": "resistenza ad umido (KIMENE)",
+          "efficienza": 0.9884515198151025
+        }
+      ],
+      "feltro": {
+        "usura": 0.31349033816427957,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Tovaglioli",
+      "peso_attuale_kg": 8299.25185158175,
+      "peso_target_kg": 33377,
+      "avanzamento_percentuale": 24.865182166107648,
+      "Bobine completate": 4
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 60
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 14.91,
+      "grammatura target": 14.9,
+      "lunghezza": 45541.3,
+      "peso_bobina": 1867.55,
+      "completata": false,
+      "indice_qualita": 0.949
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 30.1,
+        "efficienza": 0.9591323203683109
+      },
+      "concentrazione impasto %": {
+        "valore": 0.002,
+        "efficienza": 0.9425740723210363
+      },
+      "grado raffinazione": {
+        "valore": 30,
+        "efficienza": 0.9121494239391751
+      },
+      "temperatura cappa": {
+        "valore": 400,
+        "efficienza": 0.8723414896778872
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.9692607258033186
+        },
+        {
+          "tipologia": "resistenza ad umido (KIMENE)",
+          "efficienza": 0.9884515198151025
+        }
+      ],
+      "feltro": {
+        "usura": 0.3180555555556109,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Tovaglioli",
+      "peso_attuale_kg": 16204.146454699783,
+      "peso_target_kg": 33377,
+      "avanzamento_percentuale": 48.54884038319736,
+      "Bobine completate": 7
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 495
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 14.91,
+      "grammatura target": 14.9,
+      "lunghezza": 45029.6,
+      "peso_bobina": 1846.9,
+      "completata": false,
+      "indice_qualita": 0.949
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 30.1,
+        "efficienza": 0.9591323203683109
+      },
+      "concentrazione impasto %": {
+        "valore": 0.002,
+        "efficienza": 0.9425740723210363
+      },
+      "grado raffinazione": {
+        "valore": 30,
+        "efficienza": 0.9121494239391751
+      },
+      "temperatura cappa": {
+        "valore": 400,
+        "efficienza": 0.8723414896778872
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.9692607258033186
+        },
+        {
+          "tipologia": "resistenza ad umido (KIMENE)",
+          "efficienza": 0.9884515198151025
+        }
+      ],
+      "feltro": {
+        "usura": 0.32277777777786104,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Tovaglioli",
+      "peso_attuale_kg": 24389.543963570606,
+      "peso_target_kg": 33377,
+      "avanzamento_percentuale": 73.07290638334962,
+      "Bobine completate": 11
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 670
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 14.93,
+      "grammatura target": 14.9,
+      "lunghezza": 12664.57,
+      "peso_bobina": 519.85,
+      "completata": false,
+      "indice_qualita": 0.949
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 30.1,
+        "efficienza": 0.9591323203683109
+      },
+      "concentrazione impasto %": {
+        "valore": 0.002,
+        "efficienza": 0.9425740723210363
+      },
+      "grado raffinazione": {
+        "valore": 30,
+        "efficienza": 0.9121494239391751
+      },
+      "temperatura cappa": {
+        "valore": 400,
+        "efficienza": 0.8723414896778872
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.9692607258033186
+        },
+        {
+          "tipologia": "resistenza ad umido (KIMENE)",
+          "efficienza": 0.9884515198151025
+        }
+      ],
+      "feltro": {
+        "usura": 0.3267481884059038,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Tovaglioli",
+      "peso_attuale_kg": 31256.703241536492,
+      "peso_target_kg": 33377,
+      "avanzamento_percentuale": 93.64743158922758,
+      "Bobine completate": 15
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 2070
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 16.64,
+      "grammatura target": 16.6,
+      "lunghezza": 0,
+      "peso_bobina": 0,
+      "completata": false,
+      "indice_qualita": 0.942
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 27.02,
+        "efficienza": 0.881743658681697
+      },
+      "concentrazione impasto %": {
+        "valore": 0.002,
+        "efficienza": 0.9773315640170059
+      },
+      "grado raffinazione": {
+        "valore": 20,
+        "efficienza": 0.9121046692318865
+      },
+      "temperatura cappa": {
+        "valore": 410,
+        "efficienza": 0.9510793500968477
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.9875308050997734
+        }
+      ],
+      "feltro": {
+        "usura": 0.3288164251208919,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Carta igienica",
+      "peso_attuale_kg": 0,
+      "peso_target_kg": 29358,
+      "avanzamento_percentuale": 0.0,
+      "Bobine completate": 0
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 2085
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 16.62,
+      "grammatura target": 16.6,
+      "lunghezza": 1837.36,
+      "peso_bobina": 83.98,
+      "completata": false,
+      "indice_qualita": 0.942
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 27.02,
+        "efficienza": 0.881743658681697
+      },
+      "concentrazione impasto %": {
+        "valore": 0.002,
+        "efficienza": 0.9773315640170059
+      },
+      "grado raffinazione": {
+        "valore": 20,
+        "efficienza": 0.9121046692318865
+      },
+      "temperatura cappa": {
+        "valore": 410,
+        "efficienza": 0.9510793500968477
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.9875308050997734
+        }
+      ],
+      "feltro": {
+        "usura": 0.33282306763299285,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Carta igienica",
+      "peso_attuale_kg": 6953.835582283881,
+      "peso_target_kg": 29358,
+      "avanzamento_percentuale": 23.68633960856966,
+      "Bobine completate": 3
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 3450
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 16.6,
+      "grammatura target": 16.6,
+      "lunghezza": 11483.5,
+      "peso_bobina": 524.35,
+      "completata": false,
+      "indice_qualita": 0.942
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 27.02,
+        "efficienza": 0.881743658681697
+      },
+      "concentrazione impasto %": {
+        "valore": 0.002,
+        "efficienza": 0.9773315640170059
+      },
+      "grado raffinazione": {
+        "valore": 20,
+        "efficienza": 0.9121046692318865
+      },
+      "temperatura cappa": {
+        "valore": 410,
+        "efficienza": 0.9510793500968477
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.9875308050997734
+        }
+      ],
+      "feltro": {
+        "usura": 0.3370350241547569,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Carta igienica",
+      "peso_attuale_kg": 14252.265701074713,
+      "peso_target_kg": 29358,
+      "avanzamento_percentuale": 48.54644628746752,
+      "Bobine completate": 6
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 4460
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 16.59,
+      "grammatura target": 16.6,
+      "lunghezza": 43637.3,
+      "peso_bobina": 1991.17,
+      "completata": false,
+      "indice_qualita": 0.942
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 27.02,
+        "efficienza": 0.881743658681697
+      },
+      "concentrazione impasto %": {
+        "valore": 0.002,
+        "efficienza": 0.9773315640170059
+      },
+      "grado raffinazione": {
+        "valore": 20,
+        "efficienza": 0.9121046692318865
+      },
+      "temperatura cappa": {
+        "valore": 410,
+        "efficienza": 0.9510793500968477
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.9875308050997734
+        }
+      ],
+      "feltro": {
+        "usura": 0.34183876811613795,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Carta igienica",
+      "peso_attuale_kg": 22583.894799929923,
+      "peso_target_kg": 29358,
+      "avanzamento_percentuale": 76.92586279695458,
+      "Bobine completate": 9
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 4505
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 27.36,
+      "grammatura target": 26.7,
+      "lunghezza": 0,
+      "peso_bobina": 0,
+      "completata": false,
+      "indice_qualita": 0.862
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 25.2,
+        "efficienza": 0.8389667362796192
+      },
+      "concentrazione impasto %": {
+        "valore": 0.003,
+        "efficienza": 0.9687831828446891
+      },
+      "grado raffinazione": {
+        "valore": 60,
+        "efficienza": 0.6341495249424874
+      },
+      "temperatura cappa": {
+        "valore": 450,
+        "efficienza": 0.9999275483178932
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.95473107282026
+        },
+        {
+          "tipologia": "resistenza ad umido (KIMENE)",
+          "efficienza": 0.9794313966636118
+        }
+      ],
+      "feltro": {
+        "usura": 0.3459692028987711,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Asciugatutto",
+      "peso_attuale_kg": 0,
+      "peso_target_kg": 26744,
+      "avanzamento_percentuale": 0.0,
+      "Bobine completate": 0
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 4550
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 26.27,
+      "grammatura target": 26.7,
+      "lunghezza": 46053.0,
+      "peso_bobina": 3326.99,
+      "completata": false,
+      "indice_qualita": 0.862
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 25.2,
+        "efficienza": 0.8389667362796192
+      },
+      "concentrazione impasto %": {
+        "valore": 0.003,
+        "efficienza": 0.9687831828446891
+      },
+      "grado raffinazione": {
+        "valore": 60,
+        "efficienza": 0.6341495249424874
+      },
+      "temperatura cappa": {
+        "valore": 450,
+        "efficienza": 0.9999275483178932
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.95473107282026
+        },
+        {
+          "tipologia": "resistenza ad umido (KIMENE)",
+          "efficienza": 0.9794313966636118
+        }
+      ],
+      "feltro": {
+        "usura": 0.3500935990340612,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Asciugatutto",
+      "peso_attuale_kg": 10808.110199902483,
+      "peso_target_kg": 26744,
+      "avanzamento_percentuale": 40.413214926347905,
+      "Bobine completate": 2
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 5720
+    }
+  },
+  {
+    "bobina": {
+      "grammatura ottenuta": 27.18,
+      "grammatura target": 26.7,
+      "lunghezza": 0,
+      "peso_bobina": 0,
+      "completata": false,
+      "indice_qualita": 0.862
+    },
+    "macchina": {
+      "velocita tela": {
+        "valore": 25.2,
+        "efficienza": 0.8389667362796192
+      },
+      "concentrazione impasto %": {
+        "valore": 0.003,
+        "efficienza": 0.9687831828446891
+      },
+      "grado raffinazione": {
+        "valore": 60,
+        "efficienza": 0.6341495249424874
+      },
+      "temperatura cappa": {
+        "valore": 450,
+        "efficienza": 0.9999275483178932
+      },
+      "additivi_chimici": [
+        {
+          "tipologia": "sbiancante",
+          "efficienza": 0.95473107282026
+        },
+        {
+          "tipologia": "resistenza ad umido (KIMENE)",
+          "efficienza": 0.9794313966636118
+        }
+      ],
+      "feltro": {
+        "usura": 0.35444746376838643,
+        "efficienza": 1
+      }
+    },
+    "avanzamento_ordine": {
+      "prodotto": "Asciugatutto",
+      "peso_attuale_kg": 22088.5438333045,
+      "peso_target_kg": 26744,
+      "avanzamento_percentuale": 82.59252106380683,
+      "Bobine completate": 6
+    },
+    "lista eventi": {
+      "eventi": [
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 1960,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 3935,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 5910,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 7885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 9860,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 11835,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 388,
+          "tempo_simulato": 11890,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 14205,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 16180,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 18155,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 20130,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 22105,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 161,
+          "tempo_simulato": 23885,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 24250,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 260,
+          "tempo_simulato": 24775,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 363,
+          "tempo_simulato": 25140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 98,
+          "tempo_simulato": 26165,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 26965,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 28940,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 219,
+          "tempo_simulato": 30290,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 14
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 31140,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 341,
+          "tempo_simulato": 31450,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 15
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 33465,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 16
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1106,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 212,
+          "tempo_simulato": 35440,
+          "ordine_corrente": "Tovaglioli",
+          "indice_bobina": 17
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 38945,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 41145,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 43345,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 166,
+          "tempo_simulato": 43565,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 45720,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 147,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 287,
+          "tempo_simulato": 46925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 48360,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 122,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 234,
+          "tempo_simulato": 50160,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 50925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 53125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 55325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 57525,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 9
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 59725,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 10
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 61925,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 11
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 64125,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 12
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1139,
+          "tempo_simulato": 66325,
+          "ordine_corrente": "Carta igienica",
+          "indice_bobina": 13
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 69805,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 1
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 72160,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 2
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 74515,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 3
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 76870,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 80,
+          "tempo_simulato": 77010,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 4
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 79310,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina",
+          "durata": 360,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 283,
+          "tempo_simulato": 80720,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 5
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 82315,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 6
+        },
+        {
+          "evento": "cambio bobina",
+          "durata": 15,
+          "tempo_simulato": 84670,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "rottura carta",
+          "durata": 264,
+          "tempo_simulato": 84800,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 7
+        },
+        {
+          "evento": "cambio produzione",
+          "durata": 1401,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        },
+        {
+          "evento": "pulizia macchina extra",
+          "durata": 274,
+          "tempo_simulato": 87295,
+          "ordine_corrente": "Asciugatutto",
+          "indice_bobina": 8
+        }
+      ],
+      "tempo_totale_perso_sec": 6500
+    }
+  }
+]

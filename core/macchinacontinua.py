@@ -166,7 +166,7 @@ class MacchinaContinua:
                     nome_ordine = self.programma.ordine_corrente
                     ReportStatistica.grafico_avanzamento_ordine(
                         self.tracker_ordine,
-                        nome_file=f"grafico_ordine_{self.indice}_{nome_ordine.prodotto}.png"
+                        nome_file=f"grafico_ordine_{self.indice+1}_{nome_ordine.prodotto}.png"
                     )
                     self.stato = self.programma.prepara_prossimo_ordine()
                     self.indice += 1

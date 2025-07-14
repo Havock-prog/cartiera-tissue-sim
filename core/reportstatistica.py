@@ -40,7 +40,7 @@ class ReportStatistica:
         else:
             fermo = False
 
-        # Veloce, concentrazione, raffinazione, temperatura: stampati con label e unità
+        # Velocità, concentrazione, raffinazione, temperatura: stampati con label e unità
         mapping = {
             'velocita tela':   ("Velocità tela",         "m/s",        1),
             'concentrazione impasto %': ("Concentrazione impasto %", "", 3),

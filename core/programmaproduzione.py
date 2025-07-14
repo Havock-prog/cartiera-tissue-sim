@@ -12,8 +12,8 @@ class ProgrammaProduzione:
     def __init__(self, lista_ordini, sigma_velocita=0.10, sigma_efficienza=0.05):
         """
         lista_ordini: lista di oggetti Ordine (o dict)
-        sigma_velocita: deviazione standard percentuale rispetto al target velocità
-        sigma_efficienza: deviazione standard su parametri randomizzati dagli operatori
+        sigma_velocita: deviazione standard efficienza velocità
+        sigma_efficienza: deviazione standard su parametri 
         """
         self.lista_ordini = lista_ordini
         self.indice_ordine_corrente = 0
@@ -31,7 +31,7 @@ class ProgrammaProduzione:
     def gauss_riflessa(sigma):
         """
         Gaussiana centrata su 1, con riflessione rispetto a 1 per x > 1.
-        Niente limiti: il valore cade 'naturalmente' tra ~0.8 e 1 (99% dei casi),
+        con sigma standard il valore cade 'naturalmente' tra ~0.8 e 1 (99% dei casi),
         con eventi più rari verso 0.75.
         """
         x = np.random.normal(1, sigma)
@@ -45,12 +45,14 @@ class ProgrammaProduzione:
         # Calcolo della velocità teorica target
         vel_target, conc_impasto = self.calcola_velocita_teorica(ordine.grammatura_target)
         vel_target = round(vel_target,2)
-        # Additivi chimici secondo la regola precedente
         prodotto = ordine.prodotto
         if "Carta igienica" in prodotto:
-            additivi_chimici = ["sbiancante"]
-            grado_raffinazione = 20 #Semplificato da 0 a 100, ove 0 è non raffinata e 100 estremamente raffinata, l'efficacia dipende dalla efficenza dei raffinatori e della cellolusa stessa, ma anche dalle scelte dell'operatore per compensare in corso d'opera
-            temperatura_cappa = 410 #°C circa. l'efficienza dipende dalla compensazione e scelte dell'operatore della'efficienza della cappa (appunto spesso compensate dagli operatori se notato in tempo)
+            additivi_chimici = ["sbiancante"] #non vuole il KIMENE, intaserebbe il tubo di scarico
+            #Semplificato da 0 a 100, ove 0 è non raffinata e 100 estremamente raffinata, 
+            #l'efficacia dipende dalla efficenza dei raffinatori e della cellolusa stessa, 
+            grado_raffinazione = 20 
+            #°C circa. 
+            temperatura_cappa = 410 
         elif "Tovaglioli" in prodotto:
             additivi_chimici = ["sbiancante", "resistenza ad umido (KIMENE)"]
             grado_raffinazione = 30 
@@ -59,7 +61,7 @@ class ProgrammaProduzione:
             additivi_chimici = ["sbiancante", "resistenza ad umido (KIMENE)"]
             grado_raffinazione = 60 
             temperatura_cappa = 450
-        # Assegnazione dizionario essenziale
+        # Assegnazione dizionario parametri
         self.parametri_processo = {
             'velocita tela': {
                 "valore":  vel_target,
@@ -71,7 +73,8 @@ class ProgrammaProduzione:
             },
             'grado raffinazione': {
                 "valore": grado_raffinazione,
-                "efficienza": np.random.uniform(0.60, 1) # è un parametro nella realtà molto difficile da gestire, dipende da troppi fattori
+                # è un parametro nella realtà molto difficile da gestire, dipende da troppi fattori
+                "efficienza": np.random.uniform(0.60, 1) #distribuzione caotica
             },
             'temperatura cappa': {
                 "valore": temperatura_cappa,
@@ -92,7 +95,7 @@ class ProgrammaProduzione:
         Calcola la velocità teorica della tela (in m/sec) per una data grammatura,
         scegliendo la concentrazione tra 0,5%, 0,4%, 0,3%, 0,2% che porta la velocità
         più vicina possibile al massimo (senza superare 1800 m/min).
-        Restituisce velocità teorica, concentrazione usata e grammatura effettiva che si ottiene.
+        Restituisce velocità teorica, concentrazione.
         """
         portata = 616.67  # L/s (37.000 L/min)
         larghezza = 2.75  # m
@@ -122,7 +125,7 @@ class ProgrammaProduzione:
             f"Velocità tela: {self.parametri_processo['velocita tela']['valore']:.1f} m/min | "
             f"Concentrazione impasto: {self.parametri_processo['concentrazione impasto %']['valore']*100:.2f}%"
         )
-        # L’eventuale reset della bobina è ora responsabilità di MacchinaContinua , provvisorio
+
 
     def aggiorna_produzione(self, delta_peso_bobina, stato_bobina):
         """
@@ -155,7 +158,6 @@ class ProgrammaProduzione:
         else:
             self.ordine_corrente = self.lista_ordini[self.indice_ordine_corrente]
             self.transizione_in_corso = False
-            # Puoi inserire qui logica di setup/attesa/reset ecc.
             self.avvia_produzione()
             return "Cambio produzione in corso"
         

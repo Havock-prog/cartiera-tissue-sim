@@ -60,7 +60,7 @@ def plot_progress(tracker, ylabel="Completamento (%)", savefile=None, show_targe
     Plotta l'avanzamento utilizzando i dati X, Y raccolti nel tracker.
     Ogni segmento viene colorato: blu se in salita, rosso se flat, arancione se in discesa.
     L'asse x mostra il tempo simulato in ore con una cifra decimale.
-    La griglia è fitta e il grafico parte SEMPRE da (0,0) anche in presenza di dati rumorosi.
+    La griglia è fitta e il grafico parte SEMPRE da (0,0) .
 
     :param tracker: Istanza di ProgressTracker
     :param ylabel: Etichetta asse Y (es. "Completamento (%)", "Peso cumulato (kg)")

@@ -45,3 +45,11 @@ Il modello integra elementi stocastici, eventi di guasto (secondo distribuzioni 
 
    ```bash
    python main.py
+
+##  Input consigliati per una simulazione rapida
+
+Per una simulazione della durata di circa 5 minuti reali:
+Inserire un valore di 300 come acceleratore temporale.
+
+Per una simulazione della durata di circa 1 minuto reale:
+Inserire un valore di 1500 come acceleratore temporale.

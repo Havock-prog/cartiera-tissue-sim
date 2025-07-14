@@ -66,7 +66,7 @@ class Evento:
     def pulizia_macchina_extra (self):
         if np.random.random() > 0.60 :
             self.timer_rimanente_pulizia = self.timer_pulizia_macchina
-            return np.random.randint(210, 360+1)
+            return np.random.randint(210, 360+1) #tra i 3.5 minuti e 6 minuti
         else:
             return 0
 
@@ -118,7 +118,7 @@ class Evento:
         indice_bobina = self.macchina.bobine_tot_prodotte[self.macchina.indice]
         tempo_simulato_corrente = self.macchina.simclock.get_time()
         if "cambio feltro" in self.eventi_attivi:
-            tempo_effetivo_cambio_feltro = int(np.random.normal(7200, 900))
+            tempo_effetivo_cambio_feltro = int(np.random.normal(7200, 900)) #gaussiana attorno alle 2 ore con sigma di 15 minuti
             self.tot_timer = max(self.tot_timer, tempo_effetivo_cambio_feltro)
             self.log_eventi.append({
                 "evento": "cambio feltro",
@@ -129,7 +129,7 @@ class Evento:
             })
 
         if "guasto macchina" in self.eventi_attivi:
-            tempo_effetivo_riparazione_macchina = np.random.randint(300, 21600+1)
+            tempo_effetivo_riparazione_macchina = np.random.randint(300, 21600+1) #tra i 5 minuti e le 6 ore
             self.tot_timer = max(self.tot_timer, tempo_effetivo_riparazione_macchina)
             self.log_eventi.append({
                 "evento": "guasto macchina",
@@ -140,7 +140,7 @@ class Evento:
             })
 
         if "rottura carta" in self.eventi_attivi:
-            tempo_rottura_carta = np.random.randint(60, 420+1)
+            tempo_rottura_carta = np.random.randint(60, 420+1) #tra 1 e 7 minuti
             self.tot_timer = max(self.tot_timer, tempo_rottura_carta)
             self.log_eventi.append({
                 "evento": "rottura carta",
@@ -151,7 +151,7 @@ class Evento:
             })
 
         if "pulizia macchina" in self.eventi_attivi:
-            tempo_pulizia_macchina = np.random.randint(210, 390+1)
+            tempo_pulizia_macchina = np.random.randint(210, 390+1) #tra 3.5 e 6.5 minuti
             self.tot_timer = max(self.tot_timer, tempo_pulizia_macchina)
             self.log_eventi.append({
                 "evento": "pulizia macchina",
@@ -162,7 +162,7 @@ class Evento:
             })
 
         if "cambio lama crespatura" in self.eventi_attivi:
-            tempo_cambio_lama_crespatura = np.random.randint(240, 360+1)
+            tempo_cambio_lama_crespatura = np.random.randint(240, 360+1) #tra 4 e 6 minuti
             self.tot_timer = max(self.tot_timer, tempo_cambio_lama_crespatura)
             self.log_eventi.append({
                 "evento": "cambio lama crespatura",
@@ -184,7 +184,7 @@ class Evento:
             })
 
         if "cambio produzione" in self.eventi_attivi:
-            tempo_cambio_produzione = np.random.randint(900, 1500+1)
+            tempo_cambio_produzione = np.random.randint(900, 1500+1) #tra 15 e 25 minuti
             self.tot_timer = max(self.tot_timer, tempo_cambio_produzione)
             self.log_eventi.append({
                 "evento": "cambio produzione",

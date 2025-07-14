@@ -35,13 +35,13 @@ def genera_ordini_randomici():
     con grammature e pesi nei range specificati dal committente.
     Ordina e mischia la lista prima della simulazione.
     """
-    # Range in KG (da tonnellate)
+    # Range in KG
     peso_min = 20000
     peso_max = 45000
     ordini = [
         Ordine(
             prodotto="Carta igienica",
-            grammatura_target=round(np.random.uniform(16, 19), 1),
+            grammatura_target=round(np.random.uniform(16, 19), 1), # Range grammatura tipica in g/m2
             peso_target=np.random.randint(peso_min, peso_max+1)
         ),
         Ordine(
@@ -55,7 +55,7 @@ def genera_ordini_randomici():
             peso_target=np.random.randint(peso_min, peso_max+1)
         ),
     ]
-    np.random.shuffle(ordini)
+    np.random.shuffle(ordini) # Mescola l'ordine 
     return ordini
 
 def formatta_tempo(secondi):
@@ -82,14 +82,14 @@ def main():
     "Il fattore minimo di accelerazione è 5x (ogni secondo reale equivale ad almeno 5 secondi simulati), ma può essere impostato su valori più elevati\n"
     "per accelerare l’analisi di scenari produttivi estesi, mantenendo comunque la risoluzione degli eventi a livello di 5 secondi.\n"
     )
-    # 2. Input tick visivo
+    # 1. Input tick visivo
     tick_visivo = input_tick_visivo()
     tick_reale = 5  #sec, fisso
 
-    # 3. Istanzia la macchina continua
+    # 2. Istanzia la macchina continua
     macchina = MacchinaContinua(lista_ordini, tick_visivo=tick_visivo, tick_reale=tick_reale)
     macchina.setup_bobina()
-    # 4. Logging: snapshot periodici
+    # 3. Logging: snapshot periodici
     log_snapshots = []
     log_snapshots_settings_macchina = []
     n_tick_per_visivo = tick_visivo // tick_reale
@@ -102,7 +102,6 @@ def main():
         # Esegui tick per tutta la durata del tick visivo
         for _ in range(n_tick_per_visivo):
             macchina.esegui_tick()
-            # Puoi inserire qui logging per ogni singolo tick reale se vuoi
             if macchina.stato == "Tutti gli ordini completati. Termine Simulazione":
                 print()
                 print(f"{macchina.stato}")
@@ -114,8 +113,6 @@ def main():
                 break
 
         # Snapshot a ogni tick visivo
-      
-
         print ("\n-----------------------------------------------------------------\n")
         print(f"{macchina.stato}" )
         print(f"tempo di fermo: {formatta_tempo(macchina.evento.tot_timer)} --- tempo simulazione {formatta_tempo(tempo+1)} --- tempo simulato: {formatta_tempo(macchina.simclock.get_time())}")
@@ -134,7 +131,7 @@ def main():
         nome_file="grafico_simulazione_totale.png"
     )
  
-    # 5. Salvataggio finale dei log
+    # 4. Salvataggio finale dei log
 
     import json
 

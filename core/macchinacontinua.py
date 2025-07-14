@@ -12,13 +12,12 @@ def calcola_media_ponderata_efficienze(parametri, efficienza_feltro):
     Calcola la media ponderata delle efficienze dei parametri di processo,
     includendo anche l’efficienza del feltro con peso specifico.
     """
-    # Scelta arbitraria dei pesi del programmatore
+    # Scelta arbitraria dei pesi 
     pesi_default = {
         'velocita tela': 3,
         'concentrazione impasto %': 2,
         'grado raffinazione': 4,
         'temperatura cappa': 1,
-        # Additivi: puoi dare pesi diversi ai singoli additivi se vuoi!
         'additivo_0': 1,
         'additivo_1': 1,
         'additivo_2': 1,
@@ -58,22 +57,22 @@ class MacchinaContinua:
         self.stato = "Produzione"
         self.tick_reale = tick_reale                # Esempio: 5 secondi per tick
         self.tick_visivo = tick_visivo               
-        self.feltro = Feltro(tick_reale)                      # Feltro iniziale
-        self.bobina = None
-        self.sigma = None                          # Bobina inizializzata in seguito  
-        self.programma = ProgrammaProduzione(lista_ordini)
-        self.programma.avvia_produzione()             # Oggetto ProgrammaProduzione già avviato
-        self.report = ReportStatistica()     # idem, deve essere un oggetto
+        self.feltro = Feltro(tick_reale)            # Feltro iniziale
+        self.bobina = None                          # Bobina inizializzata in seguito  
+        self.sigma = None                          
+        self.programma = ProgrammaProduzione(lista_ordini) 
+        self.programma.avvia_produzione()           # Oggetto ProgrammaProduzione già avviato
+        self.report = ReportStatistica()     
         self.simclock = SimClock(tick_interno=self.tick_reale, tick_visivo=self.tick_visivo) # Clock simulato: usi solo il tick interno, che rappresenta il tempo reale di simulazione
-        self.larghezza_macchina = larghezza_macchina # Statico, tipico 2.75 m
+        self.larghezza_macchina = larghezza_macchina    # Statico, tipico 2.75 m
         self.tracker_ordine = ProgressTracker("Tracker produzione ordine corrente", self.tick_reale)
         self.tracker_simulazione = ProgressTracker("tracker produzione simulazione", self.tick_reale)
-        self.indice = 0
-        self.bobine_tot_prodotte = [0, 0, 0]
-        self.log_bobine = []
-        self.tempo_perso = 0  # Nuovo contatore tempo perso totale
+        self.indice = 0 
+        self.bobine_tot_prodotte = [0, 0, 0]  
+        self.log_bobine = []                         
+        self.tempo_perso = 0                        #  contatore tempo perso totale
         self.evento = Evento(tick_reale, self)
-        self.eventi_attivi = self.evento.eventi_attivi               # se serve un oggetto evento, non la classe
+        self.eventi_attivi = self.evento.eventi_attivi     
         
         
 
@@ -92,15 +91,15 @@ class MacchinaContinua:
         """
         ordine = self.programma.ordine_corrente
         grammatura = ordine.grammatura_target
-        lunghezza_max = getattr(ordine, "lunghezza_max", 50000)
+        lunghezza_max = getattr(ordine, "lunghezza_max", 50000) # Ottiene ordine.lunghezza_max se esiste, altrimenti assegna 50000.
         eff_media = calcola_media_ponderata_efficienze(self.programma.parametri_processo, self.feltro.efficienza)
         sigma = sigma_grammatura_solo_eff(grammatura, eff_media, coeff=0.6, p=2)
-        self.bobina = Bobina(grammatura, sigma, eff_media, lunghezza_max)
+        self.bobina = Bobina(grammatura, sigma, eff_media, lunghezza_max) # Funziona anche come reset per la nuova bobina
 
 
 
     def esegui_tick(self):
-        """Avanza l'intera simulazione di un tick."""
+        """Avanza l'intera simulazione di un tick (5 sec)"""
         # 1. Aggiorna clock simulato
         self.simclock.advance_internal()
         

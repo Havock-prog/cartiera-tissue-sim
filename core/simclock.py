@@ -1,4 +1,7 @@
 class SimClock:
+    """
+    Orologio interno simulazione
+    """
     def __init__(self, tick_interno, tick_visivo):
         self.tempo_simulato = 0
         self.tick_interno = tick_interno

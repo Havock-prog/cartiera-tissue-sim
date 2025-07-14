@@ -1,6 +1,9 @@
 import numpy as np
 
 class Bobina:
+    """
+    Crea una nuova bobina da formare da 0
+    """
     def __init__(self, grammatura_target, sigma, indice_qualita, lunghezza_max=50000):
         self.lunghezza = 0
         self.peso_bobina = 0
@@ -14,7 +17,10 @@ class Bobina:
         
 
     def aggiorna_peso(self, tick_duration, velocita_tela, larghezza=2.75):
-        # Fattore di efficienza pope: si considera che la velocità effettiva sia l'85% della velocità tela
+        """
+        Aggiorna peso bobina di un tick di simulazione (5 sec)
+        """
+        # velocità pope: si considera che la velocità effettiva sia l'85% della velocità tela
         velocita_pope = velocita_tela * 0.85
         # Lunghezza prodotta nel tick
         delta_lunghezza = velocita_pope * tick_duration
